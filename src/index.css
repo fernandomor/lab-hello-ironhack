@@ -6,6 +6,63 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.navbar-iron{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.inicio{
+  margin: 0px;
+  background-color: #1F2535;
+  color: white;
+  text-align: left;
+  overflow: hidden;
+  height: 500px;
+  
+}
+.absbanner{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.texto{
+  width: 350px;
+  padding-left: 50px;
+}
+.atomitos{
+  padding: 20px;
+}
+.botonblanco{
+  padding: 20px;
+  color: #1F2535;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer{
+  display:flex;
+  flex-direction: row;
+  width: 800px;
+  margin: 100px auto 0 auto
+  ;
+}
+
+h1{
+  margin: 0px;
+  color:white;
+  font-size: 4em;  
+}
+
+.inicio p{
+  font-size: medium;
+  color:white;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
